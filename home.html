@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="John Doe">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Saloon</title>
+  
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+  <!--Style CSS-->
+  <link rel="stylesheet" href="assets/css/mystyle.css">
+
+  <!--icon-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <div class="container"><a class="navbar-brand" href="home.html"> <strong>BEAUTY PARLOUR</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About Us<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="FAQ.html">FAQ<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="gallery.html">Gallery<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contactus.html">Contact Us<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--Section 1 -->
+  <section>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/images/bg1.jpg" alt="click here" height="550" width="1920" class="thumbnail">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/bg3.jpg" alt="click here" height="550" width="1920" class="thumbnail">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/images/bg5.jpg" alt="click here" height="550" width="1920" class="thumbnail">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+  </section>
+
+  <!--Section 4 -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 py-1">
+          <div class="card-body">
+            <p class="card-text">
+            <h2>Some example text Some example text Some example text Some example text Some example text</h2>
+            </p>
+            <a href="gallery.html" class="btn btn-dark">view more photos</a>
+          </div>
+        </div>
+        <div class="col-sm-6 py-1 text-center">
+          <div class="card-body">
+            <p class="card-text">
+            <h3>WELCOME TO OUR BEAUTY PARLOUR</h3>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita magnam aut harum totam cupiditate,
+            ratione accusamus necessitatibus deleniti, blanditiis ipsa, corporis sit animi optio porro voluptates
+            delectus tempora id perferendis.corporis sit animi optio porro voluptates delectus tempora id perferendis.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!--Section 5 -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 col-xs-6 py-5">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="assets/images/service1.jpg" alt="click here">
+            <div class="card-body">
+              <h4 class="card-title">SALON SERVICES</h4>
+              <a href="#" class="btn btn-dark stretched-link">view menu</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-6 py-5">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="assets/images/service2.jpg" alt="click here">
+            <div class="card-body">
+              <h4 class="card-title">SPA SERVICES</h4>
+              <a href="services.html" class="btn btn-dark stretched-link">view menu</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 col-xs-6 py-5">
+          <div class="card" style="width:300px">
+            <img class="card-img-top" src="assets/images/service3.jpg" alt="click here">
+            <div class="card-body">
+              <h4 class="card-title">PRODUCTS</h4>
+              <a href="gallery.html" class="btn btn-dark stretched-link">view products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- Footer -->
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Monday - Saturday: 9:00am - 5:00pm<br>
+          Sunday Closed<br>
+          <hr class="visible-xs"> 
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          7105 Reiesterstown Road <br>
+          Baltimore, MD 21215
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum optio laboriosam repudiandae eveniet nemo provident temporibus quis explicabo modi officia.
+          </p>
+          <hr class="visible-xs"> 
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>
+            &quot;Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus eius veniam architecto, possimus quidem mollitia esse, nesciunt, quae aspernatur totam nulla. Sapiente dolore quod dolorem quibusdam perspiciatis nostrum hic! Consectetur?&quot;
+          </p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Copyright BEAUTY PARLOUR 2020</div>
+    </div>
+  </footer>
+
+  <!--Bootstrap JQuery and Javascript-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
