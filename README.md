@@ -15,13 +15,11 @@ A Template Using HTML, CSS, Bootstrap
 # FaQ Page
 
 
-
 # Gallery Page 
-
-
 
 
 # Contact Us Page
 
 
+![contactus-page](https://user-images.githubusercontent.com/75694208/143526855-82342b59-ef8c-47f8-8554-fbe02400e7ae.png)
 
