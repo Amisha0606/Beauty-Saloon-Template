@@ -14,12 +14,15 @@ A Template Using HTML, CSS, Bootstrap
 
 # FaQ Page
 
+![FAQ-page](https://user-images.githubusercontent.com/75694208/143527308-c91bb4d1-fbd2-48b1-ad46-c102faa50eaa.png)
+
 
 # Gallery Page 
 
 
-# Contact Us Page
 
+
+# Contact Us Page
 
 ![contactus-page](https://user-images.githubusercontent.com/75694208/143526855-82342b59-ef8c-47f8-8554-fbe02400e7ae.png)
 
