@@ -104,3 +104,24 @@
 @media (max-width:479px) {
   
   }
+
+/* New additions*/
+
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+  .textOnTop {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text{
+    font-size: 60px;
+    color: white;
+    font-family: 'Nuosu SIL', serif;
+    font-weight: 400;
+    margin-bottom: 3vw;
+  }
+  .btn1{
+    align-items: center;
+  }
